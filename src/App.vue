@@ -68,7 +68,7 @@ function createFlowers() {
   if (!flowers.value) {
     flowers.value = [];
   }
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 10; i++) {
     // Số lượng hoa rơi ban đầu
     flowers.value.push(createFlower());
   }
